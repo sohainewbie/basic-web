@@ -1,0 +1,54 @@
+/*
+author: sohay
+date:18 may 2022
+*/
+.container{
+    display:table;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+#left{
+    border-style: solid;
+    display:table-cell;
+    width:33.33vw;
+    border: none;
+}
+  
+#center{
+    display:table-cell;
+    border-style: solid;    
+    width:33.33vw;
+    border: none;
+}
+  
+#right{
+    display:table-cell;
+    border-style: solid;
+    width:33.33vw;
+    border: none;
+}
+
+#size-type {
+    border: none;
+}
+
+.pizza-price>span{
+font-size: 20px;
+}
+
+#left-topping{
+    width: 150px;
+}
+
+#center-topping{
+    display:table-cell;
+    width: 150px;
+}
+
+#right{
+    display:table-cell;
+    width: 150px;
+}

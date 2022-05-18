@@ -1,0 +1,94 @@
+<html>
+    <!---
+        author: sohay
+        date:18 may 2022    
+    -->
+    <head>
+        <title>Pizza Shop</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/app.js"></script>
+    </head>
+    <body>
+        <h1>Pizza</h1>
+        <div class="container">
+            <div id="left">
+                <!-- pizza 1 -->
+                <div class="thumbnail">
+                    <img src="assets/image/extravaganzza.png" alt="Extravaganzza">
+                    <div class="caption">
+                        <h2 class="product-name">Extra Vaganzza </h2>
+                        <div class="pizza-price"><span>$8</span></div>
+                        <input type="radio" name="pizza-type" value="pizza1">
+                    </div>
+                </div>
+            </div>
+            <div id="center">
+                <!-- pizza 2 -->
+                <div class="thumbnail">
+                    <img src="assets/image/meatzza.png" alt="Meatzza">
+                    <div class="caption">
+                        <h2 class="product-name">Meatzza </h2>
+                        <div class="pizza-price"><span>$10</span></div>
+                        <input type="radio" name="pizza-type" value="pizza2">
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <!-- pizza 3 -->
+                <div class="thumbnail">
+                    <img src="assets/image/veggie.png" alt="veggie">
+                    <div class="caption">
+                        <h2 class="product-name">Veggie </h2>
+                        <div class="pizza-price"><span>$12</span></div>
+                        <input type="radio" name="pizza-type" value="pizza3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Size</h1>
+        <div class="container">
+            <fieldset id="size-type">
+                <input type="radio" name="pizza-size" value="small">Small
+                <input type="radio" name="pizza-size" value="medium">Medium
+                <input type="radio" name="pizza-size" value="large">Large
+            </fieldset>
+        </div>
+        <h1>Toppings</h1>
+        <div class="container">
+            <div id="left-topping">
+                <input type="checkbox" id="avocado" name="toppings" value="avocado">
+                <label for="left-topping-1"> Avocado</label><br>
+                <input type="checkbox" id="broccoli" name="toppings" value="broccoli">
+                <label for="left-topping-2"> Broccoli</label><br>
+                <input type="checkbox" id="onions" name="toppings" value="onions">
+                <label for="left-topping-3"> Onions</label><br>
+                <input type="checkbox" id="zucchini" name="toppings" value="zucchini">
+                <label for="left-topping-4"> Zucchini</label><br> 
+            </div>
+            <div id="center-topping">
+                <input type="checkbox" id="lobster" name="toppings" value="lobster">
+                <label for="center-topping-1"> Lobster</label><br>
+                <input type="checkbox" id="oyster" name="toppings" value="oyster">
+                <label for="center-topping-2"> Oyster</label><br>
+                <input type="checkbox" id="salmon" name="toppings" value="salmon">
+                <label for="center-topping-3"> Salmon</label><br>
+                <input type="checkbox" id="tuna" name="toppings" value="tuna">
+                <label for="center-topping-4"> Tuna</label><br> 
+            </div>
+            <div id="right-topping">
+                <input type="checkbox" id="bacon" name="toppings" value="bacon">
+                <label for="right-topping-1"> Bacon</label><br>
+                <input type="checkbox" id="duck" name="toppings" value="duck">
+                <label for="right-topping-2"> Duck</label><br>
+                <input type="checkbox" id="ham" name="toppings" value="ham">
+                <label for="right-topping-3"> Ham</label><br>
+                <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                <label for="right-topping-4"> Sausage</label><br> 
+            </div>
+        </div>
+        <h1>Price</h1>
+        <div class="container">
+            <h2><span id="total-prize">$0</span></h2>
+        </div>
+    </body>
+</html>
